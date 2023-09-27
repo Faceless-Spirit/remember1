@@ -1,4 +1,4 @@
-package com.example.travel_app
+package com.example.remember
 
 import io.flutter.embedding.android.FlutterActivity
 
