@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
+import 'package:remember/screens/bottom_bar/google_bottom_bar.dart';
 import 'package:remember/utils/helper_functions.dart';
 
 import '../../../utils/constants.dart';
@@ -56,7 +57,13 @@ class _LoginContentState extends State<LoginContent>
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 135, vertical: 16),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const GoogleBottomBar(
+                            ),));
+        },
         style: ElevatedButton.styleFrom(
           padding: const EdgeInsets.symmetric(vertical: 14),
           shape: const StadiumBorder(),
