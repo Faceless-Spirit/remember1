@@ -81,11 +81,35 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  file_manager:
+    dependency: "direct main"
+    description:
+      name: file_manager
+      sha256: "72c3ec25614ca7a115995db5ca6a7fe84ab3e9b9280e7ab25ab50b9c892f437e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
+  fluentui_system_icons:
+    dependency: "direct main"
+    description:
+      name: fluentui_system_icons
+      sha256: e69b46f716b37ffa19dc53fc1e5bb0e26f6288264e5879fab51effaa46b5fc67
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.217"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_bounceable:
+    dependency: "direct main"
+    description:
+      name: flutter_bounceable
+      sha256: "67af1eee931477c1ec144bb1d42b848048440c84f02963dcdede42a2dfec1390"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -243,6 +267,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
+  persistent_bottom_nav_bar_v2:
+    dependency: "direct main"
+    description:
+      name: persistent_bottom_nav_bar_v2
+      sha256: "2fbaf1e8b18108d8a303304a306d68bcfb78abfd553295f489a8a315dff479e2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.2.8"
   platform:
     dependency: transitive
     description:
