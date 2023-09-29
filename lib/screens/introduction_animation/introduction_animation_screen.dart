@@ -6,6 +6,7 @@ import 'package:remember/screens/introduction_animation/components/relax_view.da
 import 'package:remember/screens/introduction_animation/components/splash_view.dart';
 import 'package:remember/screens/introduction_animation/components/top_back_skip_view.dart';
 import 'package:remember/screens/introduction_animation/components/welcome_view.dart';
+import 'package:remember/screens/login_screen/login_screen.dart';
 
 class IntroductionAnimationScreen extends StatefulWidget {
   const IntroductionAnimationScreen({Key? key}) : super(key: key);
@@ -112,6 +113,11 @@ class _IntroductionAnimationScreenState
   }
 
   void _signUpClick() {
-    Navigator.pop(context);
+    // Navigator.pop(context);
+    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LoginScreen(),
+                      ));
   }
 }
