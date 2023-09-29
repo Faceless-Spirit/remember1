@@ -1,3 +1,4 @@
+import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:remember/theme/app_theme.dart';
 
@@ -30,7 +31,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
       DrawerList(
         index: DrawerIndex.HOME,
         labelName: 'Home',
-        icon: Icon(Icons.home),
+        icon: const Icon(FluentIcons.home_16_filled),
       ),
       DrawerList(
         index: DrawerIndex.Help,
@@ -41,22 +42,22 @@ class _HomeDrawerState extends State<HomeDrawer> {
       DrawerList(
         index: DrawerIndex.FeedBack,
         labelName: 'FeedBack',
-        icon: Icon(Icons.help),
+        icon: const Icon(FluentIcons.chat_help_20_filled),
       ),
       DrawerList(
         index: DrawerIndex.Invite,
         labelName: 'Invite Friend',
-        icon: Icon(Icons.group),
+        icon: const Icon(FluentIcons.group_20_filled),
       ),
       DrawerList(
         index: DrawerIndex.Share,
         labelName: 'Rate the app',
-        icon: Icon(Icons.share),
+        icon: const Icon(FluentIcons.share_16_filled),
       ),
       DrawerList(
         index: DrawerIndex.About,
         labelName: 'About Us',
-        icon: Icon(Icons.info),
+        icon: const Icon(FluentIcons.incognito_20_filled),
       ),
     ];
   }
@@ -119,7 +120,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
                   Padding(
                     padding: const EdgeInsets.only(top: 8, left: 4),
                     child: Text(
-                      'Chris Hemsworth',
+                      'Syuq',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         color: isLightMode ? AppTheme.grey : AppTheme.white,
@@ -155,7 +156,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
           Column(
             children: <Widget>[
               ListTile(
-                title: Text(
+                title: const Text(
                   'Sign Out',
                   style: TextStyle(
                     fontFamily: AppTheme.fontName,
@@ -165,9 +166,9 @@ class _HomeDrawerState extends State<HomeDrawer> {
                   ),
                   textAlign: TextAlign.left,
                 ),
-                trailing: Icon(
-                  Icons.power_settings_new,
-                  color: Colors.red,
+                trailing: const Icon(
+                  FluentIcons.sign_out_20_filled,
+                  color: Colors.greenAccent,
                 ),
                 onTap: () {
                   onTapped();
@@ -263,7 +264,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
                             0.0,
                             0.0),
                         child: Padding(
-                          padding: EdgeInsets.only(top: 8, bottom: 8),
+                          padding: const EdgeInsets.only(top: 8, bottom: 8),
                           child: Container(
                             width:
                                 MediaQuery.of(context).size.width * 0.75 - 64,
