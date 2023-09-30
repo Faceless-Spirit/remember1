@@ -25,38 +25,37 @@ class _HomeDrawerState extends State<HomeDrawer> {
     setDrawerListArray();
     super.initState();
   }
-
   void setDrawerListArray() {
     drawerList = <DrawerList>[
       DrawerList(
         index: DrawerIndex.HOME,
-        labelName: 'Home',
+        labelName: 'Vào quán fen ơi',
         icon: const Icon(FluentIcons.home_16_filled),
       ),
       DrawerList(
         index: DrawerIndex.Help,
-        labelName: 'Help',
+        labelName: 'Tôi giúp j đc cho fen',
         isAssetsImage: true,
         imageName: 'assets/images/supportIcon.png',
       ),
       DrawerList(
         index: DrawerIndex.FeedBack,
-        labelName: 'FeedBack',
+        labelName: 'Góp ý fen',
         icon: const Icon(FluentIcons.chat_help_20_filled),
       ),
       DrawerList(
         index: DrawerIndex.Invite,
-        labelName: 'Invite Friend',
+        labelName: 'Mời ae chiến hữu fen',
         icon: const Icon(FluentIcons.group_20_filled),
       ),
       DrawerList(
         index: DrawerIndex.Share,
-        labelName: 'Rate the app',
+        labelName: 'fen thấy như nào',
         icon: const Icon(FluentIcons.share_16_filled),
       ),
       DrawerList(
         index: DrawerIndex.About,
-        labelName: 'About Us',
+        labelName: 'Về chúng tôi',
         icon: const Icon(FluentIcons.incognito_20_filled),
       ),
     ];
@@ -157,7 +156,7 @@ class _HomeDrawerState extends State<HomeDrawer> {
             children: <Widget>[
               ListTile(
                 title: const Text(
-                  'Sign Out',
+                  'Bye fen',
                   style: TextStyle(
                     fontFamily: AppTheme.fontName,
                     fontWeight: FontWeight.w600,
