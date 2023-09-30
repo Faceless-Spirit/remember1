@@ -103,7 +103,7 @@ class CenterNextButton extends StatelessWidget {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Sign Up',
+                                    'Lụm @@',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 18,
@@ -138,7 +138,7 @@ class CenterNextButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Already have an account? ',
+                    'Fen đã vào quán này r à? ',
                     style: TextStyle(
                       color: Colors.grey,
                       fontSize: 14,
@@ -146,7 +146,7 @@ class CenterNextButton extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Login',
+                    'Zô!',
                     style: TextStyle(
                       color: Color(0xff132137),
                       fontSize: 16,
