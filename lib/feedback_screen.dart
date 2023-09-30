@@ -38,7 +38,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                   Container(
                     padding: const EdgeInsets.only(top: 8),
                     child: Text(
-                      'Your FeedBack',
+                      'Chúng tôi trông chờ góp ý của fen',
                       style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -48,7 +48,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                   Container(
                     padding: const EdgeInsets.only(top: 16),
                     child: Text(
-                      'Give your best time for this moment.',
+                      'Góp ý của fen giúp chúng tôi có động lực phát triển app',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontSize: 16,
@@ -83,7 +83,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                               child: Padding(
                                 padding: const EdgeInsets.all(4.0),
                                 child: Text(
-                                  'Send',
+                                  'Gửi',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w500,
                                     color: isLightMode
@@ -141,7 +141,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                 cursorColor: Colors.blue,
                 decoration: InputDecoration(
                     border: InputBorder.none,
-                    hintText: 'Enter your feedback...'),
+                    hintText: 'Viết góp ý của fen nào !...'),
               ),
             ),
           ),
