@@ -134,7 +134,7 @@ class _LoginContentState extends State<LoginContent>
       child: TextButton(
         onPressed: () {},
         child: const Text(
-          'Forgot Password?',
+          'Fen quên mật khẩu à?',
           style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -148,18 +148,18 @@ class _LoginContentState extends State<LoginContent>
   @override
   void initState() {
     createAccountContent = [
-      inputField('Name', Ionicons.person_outline),
+      inputField('fen tên j', Ionicons.person_outline),
       inputField('Email', Ionicons.mail_outline),
-      inputField('Password', Ionicons.lock_closed_outline),
-      loginButton('Sign Up'),
+      inputField('Mật khẩu', Ionicons.lock_closed_outline),
+      loginButton('Tạo tài khoản'),
       orDivider(),
       logos(),
     ];
 
     loginContent = [
-      inputField('Email', Ionicons.mail_outline),
-      inputField('Password', Ionicons.lock_closed_outline),
-      loginButton('Log In'),
+      inputField('Email fen đâu', Ionicons.mail_outline),
+      inputField('Mật khẩu fen ơi', Ionicons.lock_closed_outline),
+      loginButton('Zô'),
       forgotPassword(),
     ];
 
