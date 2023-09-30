@@ -35,7 +35,7 @@ class _HelpScreenState extends State<HelpScreen> {
               Container(
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(
-                  'How can we help you?',
+                  'Làm thế nào chúng tôi có thể giúp bạn?',
                   style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class _HelpScreenState extends State<HelpScreen> {
               Container(
                 padding: const EdgeInsets.only(top: 16),
                 child: Text(
-                  'It looks like you are experiencing problems\nwith our sign up process. We are here to\nhelp so please get in touch with us',
+                  'Có vẻ như fen đang gặp vấn đề\nvới j đó. Chúng tôi ở đây\n\hãy liên lạc với chúng tôi',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 16,
@@ -78,7 +78,7 @@ class _HelpScreenState extends State<HelpScreen> {
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
                               child: Text(
-                                'Chat with Us',
+                                'Nhắn với tôi',
                                 style: TextStyle(
                                   fontWeight: FontWeight.w500,
                                   color:
