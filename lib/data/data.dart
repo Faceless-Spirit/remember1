@@ -131,7 +131,7 @@ List<Map> madeForUser = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'name': 'Daily Mix 1',
-    'description': 'The Chainsmokers, Billie Eilish, Ella Vos and more',
+    'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFF98e4d8), Colors.transparent]
@@ -141,7 +141,7 @@ List<Map> madeForUser = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'name': 'Daily Mix 2',
-    'description': 'Shankar-Ehsaan-Loy, Pritam, Vishal-Shekhar and more',
+    'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFFf6c8ca), Colors.transparent]
@@ -150,8 +150,8 @@ List<Map> madeForUser = [
     'id': 3,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Daily Mix 3',
-    'description': 'Audiomachine, Martin Garrix, Mark Petrie and more',
+    'name': '',
+    'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFFb5dcba), Colors.transparent]
@@ -160,8 +160,8 @@ List<Map> madeForUser = [
     'id': 4,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Daily Mix 4',
-    'description': 'Shallou, Laszlo, Oscillian and more',
+    'name': '',
+    'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFFdc799f), Colors.transparent]
@@ -170,8 +170,8 @@ List<Map> madeForUser = [
     'id': 5,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Daily Mix 5',
-    'description': 'LANY, HARBOUR, Henry Hall and more',
+    'name': '',
+    'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFFf8c46b), Colors.transparent]
@@ -180,8 +180,8 @@ List<Map> madeForUser = [
     'id': 6,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Daily Mix 6',
-    'description': 'Chelsea Cutler, FRENSHIP, Forester and more',
+    'name': '',
+    'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFF93b5c1), Colors.transparent]
@@ -190,7 +190,7 @@ List<Map> madeForUser = [
     'id': 7,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Discover Weekly',
+    'name': '',
     'description':
         'Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.',
     'duration': '2h 40min',
@@ -201,7 +201,7 @@ List<Map> madeForUser = [
     'id': 8,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Release Radar',
+    'name': '',
     'description':
         'Catch all the latest music from artists you follow, plus new singles picked for you. Updates every Friday.',
     'duration': '2h 40min',
@@ -248,11 +248,11 @@ List<Map> recentlyPlayed = [
     'date': 'June 8',
     'copyright': '© ℗ 2018 Chelsea Cutler',
     'songs': [
-      {'title': "Deserve This", 'artists': 'Chelsea Cutler'},
-      {'title': "Lonely Alone", 'artists': 'Chelsea Cutler, Jeremy Zucker'},
-      {'title': "The Reason", 'artists': 'Chelsea Cutler'},
-      {'title': "Someone Else", 'artists': 'Chelsea Cutler'},
-      {'title': "Hell", 'artists': 'Chelsea Cutler'},
+      {'title': "", 'artists': 'Ban 4'},
+      {'title': "", 'artists': ''},
+      {'title': "", 'artists': 'Ban 4'},
+      {'title': "", 'artists': 'Ban 4'},
+      {'title': "", 'artists': ''},
     ]
   },
   {
@@ -269,19 +269,19 @@ List<Map> recentlyPlayed = [
     'date': 'May 13',
     'copyright': '℗ 2022 Disruptor Records/Columbia Records',
     'songs': [
-      {'title': "Riptide", 'artists': 'The Chainsmokers'},
-      {'title': "iPad", 'artists': 'The Chainsmokers'},
-      {'title': "Something Different", 'artists': 'The Chainsmokers'},
-      {'title': "Why Can't You Wait", 'artists': 'The Chainsmokers'},
-      {'title': "The Fall", 'artists': 'The Chainsmokers'},
-      {'title': "Testing", 'artists': 'The Chainsmokers'},
+      {'title': "Heo", 'artists': '500k'},
+      {'title': "Hổ", 'artists': '699k'},
+      {'title': "Tôm đất", 'artists': '499k'},
+      {'title': "Tôm sú", 'artists': '399k'},
+      {'title': "Bò lạc", 'artists': '199k'},
+      {'title': "Gà", 'artists': '400k'},
     ]
   },
   {
     'id': 5,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177911/table/ban4_iecyxm.jpg',
-    'title': 'Acrobatic',
+    'title': 'Bàn 3',
     'type': 'Single',
     'artist': 'SIDEPIECE',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
@@ -291,14 +291,14 @@ List<Map> recentlyPlayed = [
     'date': 'April 30',
     'copyright': '© ℗ 2021 Insomniac Records',
     'songs': [
-      {'title': "Acrobatic", 'artists': 'SIDEPIECE'}
+      {'title': "Acrobatic", 'artists': ''}
     ]
   },
   {
     'id': 6,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177911/table/ban9_aandt9.jpg',
-    'title': 'Not That Complicated',
+    'title': 'Bàn 3',
     'type': 'Single',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artist': 'Osrin',
@@ -308,7 +308,7 @@ List<Map> recentlyPlayed = [
     'date': 'April 26',
     'copyright': '© ℗ 2019 STMPD RECORDS B.V.',
     'songs': [
-      {'title': "Not That Complicated", 'artists': 'Osrin, Hilda'}
+      {'title': "Not That Complicated", 'artists': ''}
     ]
   },
 ];
@@ -318,12 +318,12 @@ List<Map> vietnamBest = [
     'id': 1,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'The best Indie tracks. Cover - Anuv Jain',
-    'name': 'Indie India',
+    'description': 'Ghi chú',
+    'name': '',
     'colors': [const Color(0xFFccf368), Colors.transparent],
     'likes': '263,222',
     'duration': '2h 40min',
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'songs': songs,
@@ -333,10 +333,10 @@ List<Map> vietnamBest = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'description':
-        'The finest quality of Bollywood music handpicked for you. Cover- Alia and Ranbir.',
-    'name': 'Bollywood Butter',
+        '.',
+    'name': '',
     'colors': [const Color(0xFFff4632), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -347,10 +347,10 @@ List<Map> vietnamBest = [
     'id': 3,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'Trending dance hits in India. Cover: King & Masked Wolf',
-    'name': 'mint India',
+    'description': 'Ghi chú',
+    'name': '',
     'colors': [const Color(0xFF5ef550), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -362,10 +362,10 @@ List<Map> vietnamBest = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'description':
-        'Catch the most streamed female artists in 2022 #SpotifyWrapped',
-    'name': 'Best of EQUAL India 2022',
+        '',
+    'name': '',
     'colors': [const Color(0xFFf36ebd), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -376,10 +376,10 @@ List<Map> vietnamBest = [
     'id': 5,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'The Kiraak-est set of Telugu Music! Cover: Pushpa',
-    'name': 'Kiraak Telugu',
+    'description': 'Ghi chú',
+    'name': 'Bàn',
     'colors': [const Color(0xFFf9e14a), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -411,10 +411,10 @@ List<Map> charts = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'description':
-        'Your daily update of the most played tracks right now - India.',
-    'name': 'Top 50 - India',
+        '',
+    'name': 'Bàn',
     'colors': [const Color(0xFF0e6e51), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -425,10 +425,10 @@ List<Map> charts = [
     'id': 3,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'The hottest tracks in India. Cover: Taylor Swift.',
-    'name': 'Hot Hits India',
+    'description': 'Ghi chú',
+    'name': 'Bàn',
     'colors': [const Color(0xFFfea32a), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -439,10 +439,10 @@ List<Map> charts = [
     'id': 4,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'Hottest Hindi music served here. Cover- Ranbir & Alia.',
-    'name': 'Hot Hits Hindi',
+    'description': 'Ghi chú',
+    'name': 'Bàn',
     'colors': [const Color(0xFFe9142a), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -456,10 +456,10 @@ List<Map> moods = [
     'id': 1,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'Feel good with this positively timeless VIP!',
-    'name': "Feelin' Good",
+    'description': 'VIP!',
+    'name': "",
     'colors': [const Color(0xFF529df2), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -470,10 +470,10 @@ List<Map> moods = [
     'id': 2,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'Beautifully dark, dramatic tracks.',
-    'name': "Dark & Stormy",
+    'description': 'Ghi chú',
+    'name': "",
     'colors': [const Color(0xFF261d44), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -484,10 +484,10 @@ List<Map> moods = [
     'id': 3,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'Happy vibes for an upbeat morning.',
+    'description': 'Ghi chú',
     'name': "Feel Good Piano",
     'colors': [const Color(0xFF22379d), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -499,10 +499,10 @@ List<Map> moods = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'description':
-        'Somehow heartbreak feels good in a place like this. Cover: Taylor Swift',
-    'name': "sad hour",
+        '',
+    'name': "",
     'colors': [const Color(0xFF2a1815), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -513,10 +513,10 @@ List<Map> moods = [
     'id': 5,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'Softer kinda dance.',
-    'name': "Chill Tracks",
+    'description': 'Ghi chú',
+    'name': "",
     'colors': [const Color(0xFF4d6e71), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -527,10 +527,10 @@ List<Map> moods = [
     'id': 6,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'description': 'We hear you.',
-    'name': "idk.",
+    'description': 'Ghi chú',
+    'name': "",
     'colors': [const Color(0xFF8a8ca4), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Bàn',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
@@ -546,39 +546,39 @@ List<Map> newReleases = [
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'title': null,
     'description':
-        'Catch all the latest music from artists you follow, plus new singles picked for you. Updates every Friday.',
+        '',
     'duration': '2h 40min',
     'type': 'VIP',
     'songs': songs,
-    'name': 'Release Radar',
+    'name': 'Bàn',
     'colors': [const Color(0xFFcacaca), Colors.transparent]
   },
   {
     'id': 2,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'title': 'Up To The Cloud',
-    'description': 'Single • Neural Cloud',
+    'title': 'Bàn 3',
+    'description': 'Ghi chú',
     'type': 'Single',
-    'artist': 'Neural Cloud',
+    'artist': '',
     'colors': [const Color(0xFFac86e2), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2022',
     'date': 'November 25',
-    'copyright': '© ℗ 2022  Neural Cloud',
+    'copyright': '',
     'songs': [
-      {'title': "Up To The Cloud", 'artists': 'Neural Cloud, Owl City'}
+      {'title': "", 'artists': ''}
     ]
   },
   {
     'id': 3,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'title': 'Black Marble',
-    'description': 'Album • Louis The Child',
+    'title': 'Bàn 3',
+    'description': 'Ghi chú',
     'type': 'Album',
-    'artist': 'Louis The Child',
+    'artist': '',
     'colors': [const Color(0xFF3c3c3c), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
@@ -586,31 +586,31 @@ List<Map> newReleases = [
     'date': 'December 2',
     'copyright': '© ℗ 2022 Interscope Records',
     'songs': [
-      {'title': "The City Is Mine", 'artists': 'Louis The Child'},
-      {'title': "Gritty", 'artists': 'Louis The Child'},
-      {'title': "Hype", 'artists': 'Louis The Child'},
-      {'title': "ooh", 'artists': 'Louis The Child'},
-      {'title': "Wolf Teeth", 'artists': 'Louis The Child'},
-      {'title': "Crushed Pieces", 'artists': 'Louis The Child'}
+      {'title': "", 'artists': ''},
+      {'title': "", 'artists': ''},
+      {'title': "", 'artists': ''},
+      {'title': "", 'artists': ''},
+      {'title': "", 'artists': ''},
+      {'title': "", 'artists': ''}
     ]
   },
   {
     'id': 4,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'title': 'Echo',
-    'description': 'Single • Mokita, Augustana',
+    'title': 'Bàn12',
+    'description': 'Ghi chú',
     'type': 'Single',
-    'artist': 'Mokita',
+    'artist': 'Bàn thường',
     'colors': [const Color(0xFF545454), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2022',
     'date': 'December 2',
     'copyright':
-        '© ℗ 2022 Mokita under exclusive license to Nettwerk Music Group Inc.',
+        '',
     'songs': [
-      {'title': "Echo", 'artists': 'Mokita, Augustana'}
+      {'title': "Bàn 12", 'artists': ''}
     ]
   },
 ];
@@ -713,8 +713,8 @@ List<Map> library = [
   recentlyPlayed[1],
   {
     'id': 3,
-    'type': 'Artist',
-    'title': 'Chelsea Cutler',
+    'type': 'Bình dân',
+    'title': 'Bàn 10',
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
   },
@@ -724,14 +724,14 @@ List<Map> library = [
   newReleases[3],
   {
     'id': 3,
-    'type': 'Artist',
+    'type': 'Bình dân',
     'title': 'Bàn 7',
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
   },
   {
     'id': 5,
-    'type': 'Artist',
+    'type': 'Bàn tổng thống',
     'title': 'Bàn 8',
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
