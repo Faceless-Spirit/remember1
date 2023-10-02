@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:remember/screens/base.dart';
-import 'package:remember/screens/bottom_bar/google_bottom_bar.dart';
 import 'package:remember/utils/helper_functions.dart';
 
 import '../../../utils/constants.dart';
