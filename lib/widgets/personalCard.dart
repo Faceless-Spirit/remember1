@@ -1,3 +1,4 @@
+import 'package:card_loading/card_loading.dart';
 import 'package:flutter/material.dart';
 
 class PersonalCard extends StatelessWidget {
@@ -5,11 +6,11 @@ class PersonalCard extends StatelessWidget {
     Key? key,
     this.description,
     this.title,
-    required this.imageUrl,
+    // required this.imageUrl,
   }) : super(key: key);
   final String? description;
   final String? title;
-  final String imageUrl;
+  // final String imageUrl;
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +25,17 @@ class PersonalCard extends StatelessWidget {
           Container(
             height: 150,
             width: 150,
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(2),
-                image: DecorationImage(
-                    fit: BoxFit.cover, image: NetworkImage(imageUrl))),
+            child: const CardLoading(
+                          height: 30,
+                          borderRadius: BorderRadius.all(Radius.circular(15)),
+                          width: 100,
+                          margin: EdgeInsets.only(bottom: 10),
+                        ),
+            // decoration: BoxDecoration(
+            //     borderRadius: BorderRadius.circular(2),
+            //
+            //     image: DecorationImage(
+            //         fit: BoxFit.cover, image: NetworkImage(imageUrl))),
           ),
           title != null
               ? Padding(
