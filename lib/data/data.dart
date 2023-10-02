@@ -5,121 +5,121 @@ List<Map> recentSmallCards = [recentlyPlayed[0], recentlyPlayed[3]];
 List<Map> songs = [
   {
     'id': 1,
-    'name': 'Temporary',
-    'artist': 'Ella Vos',
+    'name': 'Lòng xào dưa',
+    'artist': '500k',
     'album': 'Temporary',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151583/remember/nuocloc_pcphkg.jpg',
     'isLiked': false,
     'isExplicit': false
   },
   {
     'id': 2,
-    'name': 'San Diego',
-    'artist': 'BRDGS',
+    'name': 'Nghệ xào tỏi',
+    'artist': '200k',
     'album': 'Ie+',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151170/remember/bia_spdmtd.jpg',
     'isLiked': true,
     'isExplicit': false
   },
   {
     'id': 3,
-    'name': "always, i'll care",
-    'artist': 'Jeremy Zucker',
+    'name': "khô mực",
+    'artist': '20k',
     'album': 'love is not dying',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151169/remember/wine_wxvq5i.jpg',
     'isLiked': true,
     'isExplicit': false
   },
   {
     'id': 4,
-    'name': "Who Do You Love",
-    'artist': 'The Chainsmokers, 5 Seconds of Summer',
+    'name': "Bia",
+    'artist': '900k',
     'album': 'World War Joy',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151169/remember/coca_lts0sa.png',
     'isLiked': true,
     'isExplicit': true
   },
   {
     'id': 5,
-    'name': "O Sanam",
-    'artist': 'Lucky Ali',
+    'name': "Lẩu cua đồng",
+    'artist': '500k',
     'album': 'Sunoh',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151169/remember/bo_ery6th.jpg',
     'isLiked': true,
     'isExplicit': false
   },
   {
     'id': 6,
-    'name': "But Us",
-    'artist': 'Florian Picasso, Echosmith',
+    'name': "Lợn quay",
+    'artist': '350k',
     'album': 'But Us',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151169/remember/heo_v1bt6z.jpg',
     'isLiked': true,
     'isExplicit': false
   },
   {
     'id': 7,
-    'name': "Follow",
-    'artist': 'Martin Garrix, Zedd',
+    'name': "Heo quay",
+    'artist': '351k',
     'album': 'Follow',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151169/remember/tom_qfmcqa.jpg',
     'isLiked': false,
     'isExplicit': false
   },
   {
     'id': 8,
-    'name': "Higher (feat. Opposite the Other)",
-    'artist': 'Midnight Kids, Opposite the Other',
+    'name': "Vịt quay",
+    'artist': '200k',
     'album': 'The Lost Youth',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151168/remember/be_z2ilwl.jpg',
     'isLiked': true,
     'isExplicit': false
   },
   {
     'id': 9,
-    'name': "High Tide",
-    'artist': 'Shallou',
+    'name': "Ếch nhảy",
+    'artist': '230k',
     'album': 'High Tide',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151168/remember/be_z2ilwl.jpg',
     'isLiked': true,
     'isExplicit': false
   },
   {
     'id': 10,
-    'name': "Runaway Kids",
-    'artist': 'HARBOUR',
+    'name': "Gỏi cá đuối",
+    'artist': '679k',
     'album': 'Runaway Kids',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151168/remember/lau_tgdb23.jpg',
     'isLiked': false,
     'isExplicit': false
   },
   {
     'id': 11,
-    'name': "Next2u",
-    'artist': 'Mike Lee',
+    'name': "Gỏi cá rô phi",
+    'artist': '299k',
     'album': 'Another Step',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151168/remember/khaivi_boupeu.jpg',
     'isLiked': false,
     'isExplicit': false
   },
   {
     'id': 12,
-    'name': "PSYCHO",
-    'artist': 'Anne Marie',
+    'name': "Cháo trắng",
+    'artist': '10k',
     'album': 'PSYCHO',
     'albumArt':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696151168/remember/dau_fakk95.jpg',
     'isLiked': false,
     'isExplicit': true
   },
@@ -238,9 +238,9 @@ List<Map> recentlyPlayed = [
     'id': 3,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177912/table/ban2_w0iu7m.jpg',
-    'title': 'Sleeping with Roses',
+    'title': 'Bàn 6',
     'type': 'Album',
-    'artist': 'Chelsea Cutler',
+    'artist': 'Bàn 6',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
@@ -259,9 +259,9 @@ List<Map> recentlyPlayed = [
     'id': 4,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177911/table/ban7_ffr2rq.jpg',
-    'title': 'So Far So Good',
+    'title': 'Bàn 5',
     'type': 'Album',
-    'artist': 'The Chainsmokers',
+    'artist': 'Bàn 5',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
@@ -392,18 +392,18 @@ List<Map> charts = [
   {
     'id': 1,
     'imageUrl':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
+        'https://res.cloudinary.com/drpatrit3/image/upload/v1696177912/table/ban3_xczmed.jpg',
     'description':
-        'Your daily update of the most played tracks right now - Global.',
-    'name': 'Top 50 - Global',
-    'title': 'Top 50 - Global',
+        'Ghi chú của bàn này',
+    'name': 'Bàn 3',
+    'title': 'Bàn 3',
     'colors': [const Color(0xFF1e3264), Colors.transparent],
-    'by': 'Spotify',
+    'by': 'Tổng bill',
     'byAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'duration': '2h 40min',
     'songs': songs,
-    'likes': '263,222',
+    'likes': '12,263,222',
     'type': 'VIP'
   },
   {
@@ -598,28 +598,6 @@ List<Map> newReleases = [
     'id': 4,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'title': 'Worst Day (FIGHT CLVB x Tannergard Remix)',
-    'description': 'Single • ILLENIUM, MAX, FIGHT CLVB',
-    'type': 'Single',
-    'artist': 'ILLENIUM',
-    'colors': [const Color(0xFF2b0d41), Colors.transparent],
-    'artistAvatar':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'year': '2022',
-    'date': 'December 2',
-    'copyright':
-        '© ℗ 2022 Illenium LLC, under exclusive license to Warner Records Inc.',
-    'songs': [
-      {
-        'title': "Worst Day - FIGHT CLVB x Tannergard Remix",
-        'artists': 'ILLENIUM, MAX, FIGHT CLVB, Tannergard'
-      }
-    ]
-  },
-  {
-    'id': 5,
-    'imageUrl':
-        'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'title': 'Echo',
     'description': 'Single • Mokita, Augustana',
     'type': 'Single',
@@ -747,14 +725,14 @@ List<Map> library = [
   {
     'id': 3,
     'type': 'Artist',
-    'title': 'Phoebe Bridgers',
+    'title': 'Bàn 7',
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
   },
   {
     'id': 5,
     'type': 'Artist',
-    'title': 'SIDEPIECE',
+    'title': 'Bàn 8',
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
   },
