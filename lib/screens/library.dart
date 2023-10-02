@@ -307,13 +307,13 @@ class _LibraryState extends State<Library> {
                               MaterialPageRoute(
                                 builder: (context) => Playlist(data: data),
                               ));
-                        } else if (data['type'] == 'Liked') {
+                        } else if (data['type'] == 'Bình dân') {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => Liked(data: data),
                               ));
-                        } else if (data['type'] == 'Album') {
+                        } else if (data['type'] == 'Bàn tổng thống') {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
