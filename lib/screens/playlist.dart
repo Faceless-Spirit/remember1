@@ -102,7 +102,7 @@ class Playlist extends StatelessWidget {
                               children: [
                                 if (data['by'] != null)
                                   Text(
-                                    '${data['likes']} likes*',
+                                    '${data['likes']} cho thời gian nhậu là: ',
                                     style: const TextStyle(
                                         color: Colors.white24,
                                         fontWeight: FontWeight.w300),
