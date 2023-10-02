@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
+import 'package:remember/screens/base.dart';
 import 'package:remember/screens/bottom_bar/google_bottom_bar.dart';
 import 'package:remember/utils/helper_functions.dart';
 
@@ -61,7 +62,7 @@ class _LoginContentState extends State<LoginContent>
           Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const GoogleBottomBar(
+                            builder: (context) => const Base(
                             ),));
         },
         style: ElevatedButton.styleFrom(
