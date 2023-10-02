@@ -76,7 +76,7 @@ class Playlist extends StatelessWidget {
                             ),
                             data['by'] == null
                                 ? const Text(
-                                    'Syuq',
+                                    '~',
                                     style: TextStyle(
                                         color: Colors.white24,
                                         fontWeight: FontWeight.w300),
@@ -126,7 +126,7 @@ class Playlist extends StatelessWidget {
                           IconButton(
                             onPressed: () {},
                             icon:
-                                const Icon(FluentIcons.heart_broken_16_filled),
+                                const Icon(FluentIcons.arrow_trending_12_filled),
                             padding: const EdgeInsets.only(left: 20),
                             iconSize: 26,
                           ),
@@ -155,7 +155,7 @@ class Playlist extends StatelessWidget {
                             color: Colors.black,
                             onPressed: () {},
                             icon:
-                                const Icon(FluentIcons.play_circle_16_filled)),
+                                const Icon(FluentIcons.money_calculator_20_filled)),
                       ),
                     ),
                   ),
