@@ -147,7 +147,7 @@ class Home extends StatelessWidget {
                     left: screenWidth * 0.036,
                     top: screenHeight * 0.01,
                     bottom: screenHeight * 0.02),
-                child: const CustomTitle(text: 'Made for Syuq'),
+                child: const CustomTitle(text: 'Đang nhậu'),
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -190,7 +190,7 @@ class Home extends StatelessWidget {
                     top: screenHeight * 0.01,
                     bottom: screenHeight * 0.02),
                 child: const CustomTitle(
-                  text: 'Recently Played',
+                  text: 'Khách nhậu gần đây',
                 ),
               ),
               SingleChildScrollView(
@@ -224,7 +224,7 @@ class Home extends StatelessWidget {
                           }
                         },
                         child: PersonalCard(
-                            imageUrl: recentlyPlayed[index]['imageUrl'],
+                            // imageUrl: recentlyPlayed[index]['imageUrl'],
                             title: recentlyPlayed[index]['title']),
                       );
                     },
@@ -243,7 +243,7 @@ class Home extends StatelessWidget {
                   left: screenWidth * 0.036,
                 ),
                 child: const CustomTitle(
-                  text: 'Made for VN',
+                  text: 'Khách tây',
                 ),
               ),
               SingleChildScrollView(
@@ -259,8 +259,9 @@ class Home extends StatelessWidget {
                           child: const PersonalCard(
                               title: 'Create a Blend',
                               description: 'A Playlist for you and a friend.',
-                              imageUrl:
-                                  'https://res.cloudinary.com/drpatrit3/image/upload/v1685428216/bmw135a10b5a09bcb3276eaf6d26a36ecfa_awjavu.jpg'),
+                              // imageUrl:
+                              //     'https://res.cloudinary.com/drpatrit3/image/upload/v1685428216/bmw135a10b5a09bcb3276eaf6d26a36ecfa_awjavu.jpg'
+                        ),
                         );
                       },
                       separatorBuilder: (context, index) {
@@ -278,7 +279,7 @@ class Home extends StatelessWidget {
                     left: screenWidth * 0.036,
                     top: screenHeight * 0.01,
                     bottom: screenHeight * 0.02),
-                child: CustomTitle(text: "VietNam's best"),
+                child: CustomTitle(text: "Bàn còn trống"),
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -315,7 +316,7 @@ class Home extends StatelessWidget {
                     left: screenWidth * 0.036,
                     top: screenHeight * 0.01,
                     bottom: screenHeight * 0.02),
-                child: const CustomTitle(text: 'Charts'),
+                child: const CustomTitle(text: 'Khách mới'),
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -352,7 +353,7 @@ class Home extends StatelessWidget {
                     left: screenWidth * 0.036,
                     top: screenHeight * 0.01,
                     bottom: screenHeight * 0.02),
-                child: const CustomTitle(text: 'Mood'),
+                child: const CustomTitle(text: 'Khách nóng nảy'),
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -389,7 +390,7 @@ class Home extends StatelessWidget {
                     left: screenWidth * 0.036,
                     top: screenHeight * 0.01,
                     bottom: screenHeight * 0.02),
-                child: const CustomTitle(text: 'New releases for you.'),
+                child: const CustomTitle(text: 'Bàn còn trống'),
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -420,7 +421,8 @@ class Home extends StatelessWidget {
                         child: PersonalCard(
                             title: newReleases[index]['title'],
                             description: newReleases[index]['description'],
-                            imageUrl: newReleases[index]['imageUrl']),
+                            // imageUrl: newReleases[index]['imageUrl']
+                      ),
                       );
                     },
                     itemCount: newReleases.length,
