@@ -257,8 +257,8 @@ class Home extends StatelessWidget {
                         return Bounceable(
                           onTap: () {},
                           child: const PersonalCard(
-                              title: 'Create a Blend',
-                              description: 'A Playlist for you and a friend.',
+                              title: 'Bàn 19',
+                              description: '',
                               // imageUrl:
                               //     'https://res.cloudinary.com/drpatrit3/image/upload/v1685428216/bmw135a10b5a09bcb3276eaf6d26a36ecfa_awjavu.jpg'
                         ),
