@@ -117,8 +117,8 @@ class Home extends StatelessWidget {
                             MaterialPageRoute(
                               builder: (context) => Liked(data: data),
                             ));
-                      } else if (data['type'] == 'Album' ||
-                          data['type'] == 'Single') {
+                      } else if (data['type'] == 'President' ||
+                          data['type'] == 'Normal') {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -215,8 +215,8 @@ class Home extends StatelessWidget {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) => Liked(data: data)));
-                          } else if (data['type'] == 'Album' ||
-                              data['type'] == 'Single') {
+                          } else if (data['type'] == 'President' ||
+                              data['type'] == 'Normal') {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -409,8 +409,8 @@ class Home extends StatelessWidget {
                                 MaterialPageRoute(
                                   builder: (context) => Playlist(data: data),
                                 ));
-                          } else if (data['type'] == 'Album' ||
-                              data['type'] == 'Single') {
+                          } else if (data['type'] == 'President' ||
+                              data['type'] == 'Normal') {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
