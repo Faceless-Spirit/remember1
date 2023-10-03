@@ -110,7 +110,7 @@ class _LikedState extends State<Liked> {
                               child: IconButton(
                                 onPressed: () {},
                                 icon: const Icon(
-                                    FluentIcons.play_circle_16_filled),
+                                    FluentIcons.money_calculator_20_filled),
                                 padding: const EdgeInsets.all(15),
                                 color: Colors.black,
                                 iconSize: 26,
