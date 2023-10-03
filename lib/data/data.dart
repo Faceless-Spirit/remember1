@@ -130,7 +130,7 @@ List<Map> madeForUser = [
     'id': 1,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Daily Mix 1',
+    'name': '',
     'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
@@ -140,7 +140,7 @@ List<Map> madeForUser = [
     'id': 2,
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
-    'name': 'Daily Mix 2',
+    'name': '',
     'description': 'Ghi chú',
     'duration': '2h 40min',
     'songs': songs,
@@ -192,7 +192,7 @@ List<Map> madeForUser = [
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'name': '',
     'description':
-        'Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.',
+        '.',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFF364974), Colors.transparent]
@@ -203,7 +203,7 @@ List<Map> madeForUser = [
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'name': '',
     'description':
-        'Catch all the latest music from artists you follow, plus new singles picked for you. Updates every Friday.',
+        '.',
     'duration': '2h 40min',
     'songs': songs,
     'colors': [const Color(0xFFcacaca), Colors.transparent]
@@ -216,7 +216,7 @@ List<Map> recentlyPlayed = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177912/table/ban1_co1qbr.jpg',
     'title': 'Bàn 1',
-    'type': 'VIP',
+    'type': 'Liked',
     'songs': songs,
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'isPinned': true
