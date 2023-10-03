@@ -204,7 +204,7 @@ class Album extends StatelessWidget {
                   SizedBox(
                     height: screenHeight * 0.008,
                   ),
-                  if (data['type'] == 'Single')
+                  if (data['type'] == 'Normal')
                     Text(
                       '${data['songs'].length} song',
                       style: const TextStyle(
@@ -212,7 +212,7 @@ class Album extends StatelessWidget {
                           fontSize: 15,
                           fontWeight: FontWeight.w500),
                     ),
-                  if (data['type'] == 'Album')
+                  if (data['type'] == 'President')
                     Text(
                       '${data['songs'].length} món',
                       style: const TextStyle(
