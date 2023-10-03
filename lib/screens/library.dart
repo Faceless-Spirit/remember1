@@ -272,7 +272,7 @@ class _LibraryState extends State<Library> {
                               MaterialPageRoute(
                                 builder: (context) => Liked(data: data),
                               ));
-                        } else if (data['type'] == 'Album') {
+                        } else if (data['type'] == 'President') {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
