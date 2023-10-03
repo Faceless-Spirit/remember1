@@ -239,14 +239,14 @@ List<Map> recentlyPlayed = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177912/table/ban2_w0iu7m.jpg',
     'title': 'Bàn 6',
-    'type': 'Album',
+    'type': 'President',
     'artist': 'Bàn 6',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2018',
     'date': 'June 8',
-    'copyright': '© ℗ 2018 Chelsea Cutler',
+    'copyright': '',
     'songs': [
       {'title': "", 'artists': 'Ban 4'},
       {'title': "", 'artists': ''},
@@ -260,14 +260,14 @@ List<Map> recentlyPlayed = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177911/table/ban7_ffr2rq.jpg',
     'title': 'Bàn 5',
-    'type': 'Album',
+    'type': 'President',
     'artist': 'Bàn 5',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2022',
     'date': 'May 13',
-    'copyright': '℗ 2022 Disruptor Records/Columbia Records',
+    'copyright': '',
     'songs': [
       {'title': "Heo", 'artists': '500k'},
       {'title': "Hổ", 'artists': '699k'},
@@ -282,14 +282,14 @@ List<Map> recentlyPlayed = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177911/table/ban4_iecyxm.jpg',
     'title': 'Bàn 3',
-    'type': 'Single',
+    'type': 'Normal',
     'artist': 'SIDEPIECE',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2021',
     'date': 'April 30',
-    'copyright': '© ℗ 2021 Insomniac Records',
+    'copyright': '',
     'songs': [
       {'title': "Acrobatic", 'artists': ''}
     ]
@@ -299,14 +299,14 @@ List<Map> recentlyPlayed = [
     'imageUrl':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1696177911/table/ban9_aandt9.jpg',
     'title': 'Bàn 3',
-    'type': 'Single',
+    'type': 'Normal',
     'colors': [const Color(0xFF523ba0), Colors.transparent],
     'artist': 'Osrin',
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2019',
     'date': 'April 26',
-    'copyright': '© ℗ 2019 STMPD RECORDS B.V.',
+    'copyright': '',
     'songs': [
       {'title': "Not That Complicated", 'artists': ''}
     ]
@@ -559,7 +559,7 @@ List<Map> newReleases = [
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'title': 'Bàn 3',
     'description': 'Ghi chú',
-    'type': 'Single',
+    'type': '',
     'artist': '',
     'colors': [const Color(0xFFac86e2), Colors.transparent],
     'artistAvatar':
@@ -577,14 +577,14 @@ List<Map> newReleases = [
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'title': 'Bàn 3',
     'description': 'Ghi chú',
-    'type': 'Album',
+    'type': 'President',
     'artist': '',
     'colors': [const Color(0xFF3c3c3c), Colors.transparent],
     'artistAvatar':
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'year': '2022',
     'date': 'December 2',
-    'copyright': '© ℗ 2022 Interscope Records',
+    'copyright': '',
     'songs': [
       {'title': "", 'artists': ''},
       {'title': "", 'artists': ''},
@@ -600,7 +600,7 @@ List<Map> newReleases = [
         'https://res.cloudinary.com/drpatrit3/image/upload/v1685428262/i41_aykc1o.jpg',
     'title': 'Bàn12',
     'description': 'Ghi chú',
-    'type': 'Single',
+    'type': 'Normal',
     'artist': 'Bàn thường',
     'colors': [const Color(0xFF545454), Colors.transparent],
     'artistAvatar':
