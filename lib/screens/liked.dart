@@ -84,7 +84,7 @@ class _LikedState extends State<Liked> {
                                     height: screenHeight * 0.005,
                                   ),
                                   Text(
-                                    '$count songs',
+                                    '$count món',
                                     style: const TextStyle(
                                         color: Colors.white24,
                                         fontWeight: FontWeight.w300,

@@ -214,7 +214,7 @@ class Album extends StatelessWidget {
                     ),
                   if (data['type'] == 'Album')
                     Text(
-                      '${data['songs'].length} songs',
+                      '${data['songs'].length} món',
                       style: const TextStyle(
                           color: Colors.white,
                           fontSize: 15,
